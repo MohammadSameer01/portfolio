@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/MohammadSameer01/portfolio/sitemap.xml
