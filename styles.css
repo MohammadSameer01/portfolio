@@ -251,6 +251,11 @@ body {
     margin-bottom: 0.8rem;
 }
 
+.project-description {
+    margin-bottom: 1.8em;
+    font-size: 0.75em;
+}
+
 .project-buttons {
     display: flex;
     gap: 0.6rem;
@@ -384,12 +389,15 @@ body {
 .reveal {
     opacity: 0;
     transform: translateY(28px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition: opacity 0.6s ease, transform 0.6s ease, filter 0.3s ease;
+    filter: blur(24px);
 }
 
 .reveal.show {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0);
+
 }
 
 /* stagger effect for lists/cards */
